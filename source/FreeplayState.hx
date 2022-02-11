@@ -212,7 +212,7 @@ class FreeplayState extends MusicBeatState
 		var accepted = controls.ACCEPT;
 
 
-        var gamepad:FlxGamepad = FlxG.gamepads.lastActive;
+        var gamepad:null = FlxG.gamepads.lastActive;
 
 		if (gamepad != null)
 		{

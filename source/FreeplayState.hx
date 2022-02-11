@@ -210,9 +210,6 @@ class FreeplayState extends MusicBeatState
 		var downP = controls.DOWN_P;
 		var accepted = controls.ACCEPT;
 
-
-		if (gamepad != null)
-		{
 			if (gamepad.justPressed.DPAD_UP)
 			{
 				changeSelection(-1);
